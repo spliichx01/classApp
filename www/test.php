@@ -1,5 +1,9 @@
 <?php
-	
+
+
+	session_start();
+
+	$adminName = $_SESSION['name'];	
 	define('MAX_FILE_SIZE', '2097152');
 	$ext = ['image/jpg','image/jpeg','image/png'];
 

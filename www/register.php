@@ -1,4 +1,4 @@
-<?php
+ <?php
 	
 	$page_title = "Register";
 	include 'includes/header.php';
